@@ -122,7 +122,7 @@
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
+				<artifactId>maven-war-plugin</artifactId>
 				<configuration>
 					<archive>
 						<manifest>
@@ -138,7 +138,7 @@
 				<executions>
 					<execution>
 						<goals>
-							<goal>jar</goal>
+							<goal>war</goal>
 						</goals>
 					</execution>
 				</executions>
@@ -149,7 +149,7 @@
 				<executions>
 					<execution>
 						<goals>
-							<goal>jar</goal>
+							<goal>war</goal>
 						</goals>
 					</execution>
 				</executions>
